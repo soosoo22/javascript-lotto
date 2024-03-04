@@ -1,6 +1,7 @@
 .lotto-display {
   margin-top: 10px;
   width: 382px;
+  height: 300px;
 }
 
 .lotto-message {
@@ -13,8 +14,9 @@
 }
 
 .lotto-box {
-  width: 238px;
-  height: 276px;
+  /* width: 238px; */
+  height: 255px;
+  overflow: overlay;
 }
 
 .lotto-number::before {
